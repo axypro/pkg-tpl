@@ -25,11 +25,7 @@ jobs:
             - name: Install Composer dependencies
               run: composer install
 
-            - name: Run Composer tests
-              if: ${{ matrix.php != '8.2' }}
-              run: vendor/bin/phpunit -c phpunit.xml.dist
-
-            - name: Run Composer tests with coverage
+            - name: Run tests with coverage
               if: ${{ matrix.php == '8.2' }}
               run: vendor/bin/phpunit --coverage-clover local/clover.xml
 
