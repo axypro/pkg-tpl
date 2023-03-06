@@ -8,6 +8,8 @@ services:
         profiles: ['console']
         volumes:
             - '..:/app:ro'
+            - '../vendor:/app/vendor'
+            - '../composer.lock:/app/composer.lock'
             - '../local:/app/local'
         working_dir: '/app'
         environment:
