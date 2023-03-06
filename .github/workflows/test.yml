@@ -31,7 +31,7 @@ jobs:
 
             - name: Run Composer tests with coverage
               if: ${{ matrix.php == '8.2' }}
-              run: sh coveralls.sh
+              run: vendor/bin/phpunit --coverage-clover local/clover.xml --coverage-text
 
             - name: Upload coverage results to Coveralls
               if: ${{ matrix.php == '8.2' }}
@@ -41,4 +41,4 @@ jobs:
                 COVERALLS_FLAG_NAME: php-${{ matrix.php-versions }}
               run: |
                 composer global require twinh/php-coveralls
-                php-coveralls --coverage_clover=build/logs/clover.xml -v
+                php-coveralls --coverage_clover=local/clover.xml -v
