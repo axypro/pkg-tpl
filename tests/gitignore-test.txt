@@ -1,0 +1,4 @@
+# Test gitignore file
+# no-copy-to-pkg
+/.hidden
+file.bak
