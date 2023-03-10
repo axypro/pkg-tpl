@@ -9,7 +9,7 @@ use axy\pkg\tpl\ExampleMul;
 /**
  * no-copy-to-pkg
  */
-class ExampleTest extends BaseTestCase
+class ExampleMulTest extends BaseTestCase
 {
     /** @dataProvider providerMul */
     public function testMul(int $first, int $second, int $expected): void
