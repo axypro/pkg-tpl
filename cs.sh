@@ -4,6 +4,6 @@
 # Without arguments checks /src/ and /tests/ directories.
 # Host script that executes internal script (inside docker container)
 
-. $(dirname "$0")/docker/scripts/boot_host.sh
+. "$(dirname "$0")/docker/scripts/boot_host.sh"
 
-docker-compose run -T --rm php /bin/sh -c "/bin/sh /app/docker/scripts/cs.sh $*"
+docker-compose run -T --rm php /bin/sh /app/docker/scripts/cs.sh "$@"
