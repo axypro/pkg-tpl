@@ -2,6 +2,8 @@
 
 --no-copy-below-to-pkg
 
+## 0.1.1 (16.03.2023)
+
 * `coverage.sh`: run phpunit with coverage in HTML format
 * `vendor`, `local` and `composer.lock` created under the current user (not under root)
 * Up PHPUnit to 10
