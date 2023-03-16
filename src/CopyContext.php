@@ -7,14 +7,14 @@ namespace axy\pkg\tpl;
 /**
  * no-copy-to-pkg
  */
-readonly class CopyContext
+class CopyContext
 {
     public function __construct(
-        public PkgName $name,
-        public string $src,
-        public string $dest,
-        public Gitignore $ignore,
-        public Logger $logger,
+        public readonly PkgName $name,
+        public readonly string $src,
+        public readonly string $dest,
+        public readonly Gitignore $ignore,
+        public readonly Logger $logger,
     ) {
     }
 
