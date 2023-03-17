@@ -12,7 +12,7 @@ use axy\pkg\tpl\DirectoryCopier;
 use axy\pkg\tpl\Logger;
 use axy\pkg\tpl\PkgName;
 
-require_once __DIR__ . '/../index.php';
+require_once __DIR__ . '/../../index.php';
 
 $logger = new Logger();
 
