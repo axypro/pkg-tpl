@@ -2,6 +2,8 @@
 
 --no-copy-below-to-pkg
 
+* Use `axy/pkg-unit` for unit tests
+
 ## 0.1.1 (16.03.2023)
 
 * `coverage.sh`: run phpunit with coverage in HTML format
