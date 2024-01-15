@@ -2,6 +2,8 @@
 
 --no-copy-below-to-pkg
 
+## 0.1.2 (15.01.2024)
+
 * Use `axy/pkg-unit` for unit tests
 
 ## 0.1.1 (16.03.2023)
