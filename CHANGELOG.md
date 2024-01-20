@@ -2,6 +2,8 @@
 
 --no-copy-below-to-pkg
 
+* Dev: build the docker compose project with the correct profile (to track changes in the dockerfile)
+
 ## 0.1.2 (15.01.2024)
 
 * Use `axy/pkg-unit` for unit tests
