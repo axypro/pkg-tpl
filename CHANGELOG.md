@@ -3,6 +3,7 @@
 --no-copy-below-to-pkg
 
 * Dev: build the docker compose project with the correct profile (to track changes in the dockerfile)
+* Dev: up PHP to 8.3
 
 ## 0.1.2 (15.01.2024)
 
