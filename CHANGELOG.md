@@ -2,6 +2,8 @@
 
 --no-copy-below-to-pkg
 
+* Up `pkg-unit` to 0.1.4
+
 ## 0.1.3 (20.01.2024)
 
 * Dev: build the docker compose project with the correct profile (to track changes in the dockerfile)
